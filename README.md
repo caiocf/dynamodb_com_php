@@ -30,4 +30,5 @@ e) Instalando SDK AWS usando o Composer:
 ```
 
 f) Criando as tabelas e dados:
+
 http://54.162.90.122/dynamodb/createtables.php
