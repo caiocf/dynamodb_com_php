@@ -15,7 +15,7 @@ c) Instalando Apache e PHP e Git na instancia EC2.
 [root@ip-172-31-48-200 /]# echo "<?php phpinfo();?>" > home.php
 ```
 
-d) Instalado Gerenciar de Dependencias do PHP Composer (https://getcomposer.org/download/)
+d) Instalando Gerenciador de Dependencias do PHP Composer (https://getcomposer.org/download/)
 ```bash
 [root@ip-172-31-48-200 /]# cd /var/www/html
 [root@ip-172-31-48-200 /]# php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
@@ -23,7 +23,7 @@ d) Instalado Gerenciar de Dependencias do PHP Composer (https://getcomposer.org/
 [root@ip-172-31-48-215 /]# php -r "unlink('composer-setup.php');"
 ```
 
-e) Instalando SDK AWS usando o Composer:
+e) Instalando SDK AWS para o PHP usando o Composer:
 ```bash
 [root@ip-172-31-48-200 /]# cd /var/www/html
 [root@ip-172-31-48-200 /]# php -d memory_limit=-1 composer.phar require aws/aws-sdk-php
