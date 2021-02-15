@@ -1,9 +1,9 @@
 # dynamodb_com_php
 Este passos abaixo mostrar como criar uma maquina PHP integrado com o dynamodb da AWS
 
-a) Crie uma ROLE no painel IAM e associe a uma police de `AmazonDynamoDBFullAccess`
+a) Crie uma ROLE para EC2 no painel IAM e associe a uma police de `AmazonDynamoDBFullAccess`
 
-b) Crie uma instancia EC2 na AWS e associe a este ROLE e libera as portas de entrada 22/tcp, 80/tcp
+b) Crie uma instancia EC2 na AWS e associe a este ROLE do passo anterior e libere as portas de entrada 22/tcp, 80/tcp
 
 c) Instalando Apache e PHP e Git na instancia EC2.
 ```bash
