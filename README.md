@@ -13,6 +13,7 @@ c) Instalando Apache e PHP e Git na instancia EC2.
 [root@ip-172-31-48-200 /]# chkconfig httpd on
 [root@ip-172-31-48-200 /]# cd /var/www/html
 [root@ip-172-31-48-200 /]# echo "<?php phpinfo();?>" > home.php
+[root@ip-172-31-48-200 /]# git clone https://github.com/caiocf/dynamodb_com_php.git
 ```
 
 d) Instalando Gerenciador de Dependencias do PHP Composer (https://getcomposer.org/download/)
