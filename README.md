@@ -32,5 +32,8 @@ e) Instalando SDK AWS para o PHP usando o Composer:
 ```
 
 f) Criando as tabelas e dados:
+Cria estrutura de tabelas:
+http://54.162.90.100/dynamodb/createtables.php
 
-http://54.162.90.122/dynamodb/createtables.php
+Faz o inserção de dados:
+http://54.162.90.100/dynamodb/createdata.php
